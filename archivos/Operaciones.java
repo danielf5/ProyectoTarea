@@ -7,6 +7,8 @@ public class Operaciones
 	public Operaciones()
 	{
 		this.Suma();
+		this.Resta();
+		this.Multiplicacion();
 	}
 	private Suma()
 	{
@@ -21,5 +23,11 @@ public class Operaciones
 		int b = 5;
 		int c = a-b;
 		System.out.println(c);
+	}
+	private Multiplicacion()
+	{
+		int a = 8;
+		int b = 4;
+		int c = a*b;
 	}
 }
