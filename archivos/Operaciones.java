@@ -15,4 +15,11 @@ public class Operaciones
 		int c = a+b;
 		System.out.println(c);
 	}
+	private Resta()
+	{
+		int a = 10;
+		int b = 5;
+		int c = a-b;
+		System.out.println(c);
+	}
 }
